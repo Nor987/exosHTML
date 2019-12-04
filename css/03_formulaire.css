@@ -1,0 +1,30 @@
+/*feuille de style pour mon premier formulaire HTML*/
+
+body {
+    background-color:#ccccea;
+}
+
+/*ici les styles pour le formulaire*/
+
+fieldset {
+    border:1px solid #484c7f;
+    background-color:#c3b4d2;
+}
+
+legend {
+    background-color:#ccccea;
+    color:#543e5c;
+}
+
+a {
+    color:black;
+}
+
+textarea {
+    border:5px ridge black;
+    color:#9b45e4;
+}
+
+input {
+    color:#9b45e4;
+}

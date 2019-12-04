@@ -1,0 +1,11 @@
+/*les styles pour la page avec les liens hyper texte*/
+
+body {
+    background-color:#cccccc;
+}
+
+/*une classe pour styler certaines parties de la page*/
+
+.fond_vert {
+    background-color:#6fb98f;
+}
