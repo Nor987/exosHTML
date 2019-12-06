@@ -4,6 +4,10 @@ body {
     background-color:#cccccc;
 }
 
+a {
+    color:#2e279d;
+}
+
 /*une classe pour styler certaines parties de la page*/
 
 .fond_vert {

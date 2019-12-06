@@ -1,0 +1,25 @@
+/*feuille de style pour la page sélecteur*/
+
+body {
+    background-color:#e3e7f1;
+    color:#111d5e;
+}
+
+/*des classes pour la page*/
+
+.zone1 {
+    background-color:#e5dfdf;
+    height:50px;
+}
+
+.zone2 {
+    background-color:#c9d1d3;
+    height:70px; /*hauteur du bloc*/
+}
+
+/*des styles pour des ID*/
+
+#zone3 {
+    background-color:#dfcdc3;
+    color:#111d5e;
+}
