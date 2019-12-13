@@ -1,0 +1,28 @@
+/* feuille de style pour la page des float */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.boite {
+    /* une image en arrière plan */
+    background: url(../img/siamois.jpg);
+    /* l'image ne se répète pas */
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 194px;
+    border: 4px solid white;
+    /* effet flottant : permet de placer les balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
+    float: left;
+}
+
+.clear {
+    /* supprimer l'effet flottant */
+    clear: both;
+}
+
+/* une pseudo class */
+a:hover {
+    background-color: #fffde8;
+    color: black;
+}

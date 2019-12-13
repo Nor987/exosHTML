@@ -1,31 +1,31 @@
-/*feuille de style css pour 02_balises.html*/
-/*les éléments de la page styles ci-dessous : éléments = balises*/
+/* feuille de style css pour 02_balises.html */
+/* les éléments de la page styles ci-dessous : éléments = balises */
 
 body {
-    background-color:#e5dfdf;
-    color:#484c7f;
-    border:2px solid #940a37;
+    background-color: #e5dfdf;
+    color: #484c7f;
+    border: 2px solid #940a37;
 }
 
 header {
-    background-color:#eeeeee;
-    color:black;
-    height:100px;
+    background-color: #eeeeee;
+    color: black;
+    height: 100px;
 }
 
 nav {
-    background-color:#fff1e9;
-    color:#5a3d5c;
+    background-color: #fff1e9;
+    color: #5a3d5c;
 }
 
 article {
-    background-color:whitesmoke;
-    height:80px;
-    border:2px dotted #940a37;
+    background-color: whitesmoke;
+    height: 80px;
+    border: 2px dotted #940a37;
 }
 
-/*une classe pour styler certaines zones de la page : les class sont intoduites par le caractère point .*/
+/* une classe pour styler certaines zones de la page : les class sont intoduites par le caractère point . */
 
 .fond_violet {
-    background-color:purple;
+    background-color: purple;
 }

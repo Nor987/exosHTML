@@ -1,0 +1,31 @@
+/* feuille de style pour l'exo 3 */
+
+body {
+    background-color: #cccccc;
+}
+
+.violet {
+    color: #381460;
+}
+p {
+    color: #030255;
+}
+
+ol {
+    color: #030255;
+}
+
+li {
+    padding-left: 7px;
+}
+
+abbr {
+    background-color: #89a3b2;
+}
+
+/* font-weight:bolder; pour mettre en gras */
+
+code {
+    background-color: #b8b4b4;
+    color: black;
+}

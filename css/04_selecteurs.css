@@ -1,25 +1,84 @@
-/*feuille de style pour la page sélecteur*/
+/* feuille de style pour la page sélecteur */
 
 body {
-    background-color:#e3e7f1;
-    color:#111d5e;
+    background-color: #f4f4f4;
+    color: #111d5e;
+    /* taille de la police ou de la typo ou de la font (et pas de l'écriture) */
+    font-size: 20px;
+}
+
+/* des propriétés pour la section et pour les différents paragraphes de la section */
+section {
+    background-color: #e5e5e5;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/* tous les P à l'intérieur de la balise SECTION ont une couleur */
+section p {
+    color: #6303c2;
+}
+
+/* le premier P de la section sera darkred et en gras ; premier enfant d'un élément */
+section p:first-child {
+    color: darkred;
+    font-weight: bolder;
+}
+
+/* le dernier paragraphe de chaque section aura un fond #fff6da ; dernier enfant d'un élément */
+section p:last-child {
+    background-color: #fff6da;
+}
+
+/* le 3ème et le 6ème P de la section seront en majuscule ; le énième d'un élément */
+section p:nth-child(3), p:nth-child(6) {
+    text-transform: uppercase;
+}
+
+/* le 5ème et le 9ème P de la section auront la 1ère lettre du mot en majuscule ; le énième d'un élément */
+section p:nth-child(5), p:nth-child(9) {
+    text-transform: capitalize;
+}
+
+section p:nth-child(even) {
+    /* tous les P pair */
+    background-color: snow;
+}
+
+section p:nth-child(odd) {
+    /*tous les P impair*/
+    background-color: #696580;
 }
 
 /*des classes pour la page*/
+.zone1, .zone2 {
+     /*height hauteur du container*/
+     height: 100px;
+}
 
 .zone1 {
-    background-color:#e5dfdf;
-    height:50px;
+    background-color: #f2eee5;
 }
 
 .zone2 {
-    background-color:#c9d1d3;
-    height:70px; /*hauteur du bloc*/
+    background-color: #ffffea;
 }
 
-/*des styles pour des ID*/
-
+/*des styles pour des ID*/ 
 #zone3 {
-    background-color:#dfcdc3;
-    color:#111d5e;
+    /*ID donc avant son nom je mets # (un ID est unique)*/
+    background-color: #e3e7f1;
+    color: #111d5e;
+}
+
+#zone3:before {
+    /*on rajoute du contenu (content) avant l'ID zone 3*/
+    content: "Rajouter avant la zone 3 ";
+}
+
+#zone3:after {
+    /*on rajoute du contenu (content) après l'ID zone 3*/
+    content: " rajouter après la zone 3";
 }

@@ -15,27 +15,27 @@
 <body>
 
    <h1>Mon premier formulaire HTML</h1>
-   <!--le lien hypertexte qui nous emmène vers une autre page-->
+   <!-- le lien hypertexte qui nous emmène vers une autre page -->
    <h2>Un lien <a href="exos/02_bis_liens.html">vers la page des liens</a></h2>
 
    <hr>
 
-   <!--je déclare le formulaire avec la balise form-->
+   <!-- je déclare le formulaire avec la balise form -->
 
    <form>
-       <!--les champs du formulaire et leurs étiquettes-->
+       <!-- les champs du formulaire et leurs étiquettes -->
 
-       <!--premier champ du form : le nom-->
-       <!--label désigne l'étiquette du champs-->
-       <!--un ensemble de champs de formulaire-->
+       <!-- premier champ du form : le nom -->
+       <!-- label désigne l'étiquette du champs -->
+       <!-- un ensemble de champs de formulaire -->
        <fieldset>
            <legend>Nom et prénom</legend>
            <label for="nom">Nom *</label>
            <input type="text" name="nom" id="nom" placeholder="Votre nom de famille" required>
-           <!--required indique que le champ doit être renseigné-->
-           <!--name est indispensable-->
+           <!-- required indique que le champ doit être renseigné -->
+           <!-- name est indispensable -->
     
-           <!--second champ du form : le prénom-->
+           <!-- second champ du form : le prénom -->
            <label for="prenom">Prénom *</label>
            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
            <br>
@@ -45,34 +45,34 @@
        
        <fieldset>
            <legend>Informations de connexion</legend>
-           <!--troisième champ du form : le pseudo-->
+           <!-- troisième champ du form : le pseudo -->
            <label for="pseudo">Pseudonyme *</label>
            <input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo" required>
         
-           <!--quatrième champ du form : le mot de passe-->
+           <!-- quatrième champ du form : le mot de passe -->
            <label for="mdp">Mot de passe *</label>
            <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
            <br>
        </fieldset>
 
        <fieldset>
-           <!--cinquième champ du form : email-->
+           <!-- cinquième champ du form : email -->
            <label for="email">Email *</label>
            <input type="email" name="email" id="email" placeholder="Votre email" required>
            <br>
        </fieldset>
 
        <fieldset>
-           <!--sixième champ du form : ajout d'une photo-->
+           <!-- sixième champ du form : ajout d'une photo -->
            <label for="photo">Photographie *</label>
            <input type="file" name="photo" required>
            <br>
        </fieldset>
 
        <fieldset>
-           <!--septième champ du form : des cases à cocher-->
+           <!-- septième champ du form : des cases à cocher -->
            <label for="question">Choisissez votre destination... *</label>
-           <!--avec checked une case sera cochée par défaut-->
+           <!-- avec checked une case sera cochée par défaut -->
                 <input type="checkbox" name="question" checked>En Chine ?
                 <input type="checkbox" name="question">en Australie ?
                 <input type="checkbox" name="question">ou sur Mars ? (retour non garanti)
@@ -80,17 +80,17 @@
        </fieldset>
 
        <fieldset>
-           <!--huitième champ du form ; une zone de texte-->
+           <!-- huitième champ du form ; une zone de texte -->
            <p><label for="commentaire">Avez-vous une précision à apporter, un souhait pour le voyage ?</label></p>
-           <!--rows nombre de lignes, cols nombre de rangées du textarea-->
+           <!-- rows nombre de lignes, cols nombre de rangées du textarea -->
            <textarea name="commentaire" rows="5" cols="50" placeholder="Tapez votre texte..."></textarea>
            <br>
        </fieldset>
 
-       <!--pour envoyer le form, un bouton (un btn)-->
+       <!-- pour envoyer le form, un bouton (un btn) -->
        <input style="color:black;" type="submit" name="inscription" value="Envoyer">
 
-       <!--pour vider le form-->
+       <!-- pour vider le form -->
        <input style="color:black;" type="reset" name="annuler" value="Effacer">
 
    </form>
