@@ -5,30 +5,72 @@ body {
     background-color: grey;
     border: 1px solid white;
     margin: 10px auto;
-    color: white;
+    color: #293462;
 }
 
 #contenu {
-    background-color: pink;
-    border: 2px solid red;
+    background-color: #f2eee5;
+    border: 2px solid #6c7b95;
     margin: 5px;
 }
 
 header, footer {
     height: 120px;
-    border: 1px solid olive;
-    background-color: lightskyblue;
+    border: 1px solid darkslateblue;
+    background-color: #f2eee5;
     text-align: center;
     padding-top: 10px;
 }
 
+/* les styles pour la navigation pour l'élément nav */
 nav {
     height: 60px;
-    background-color:lightsalmon;
+    background-color:#c9c1cc;
     padding-left: 40px;
-    /* padding-top: 5px; */
+    padding-right: 40px;
+    padding-top: 5px;
 }
 
+nav ul {
+    /* pour être certain de ne pas avoir de puces dans cette ul */
+    list-style-type: none;
+    background-color: floralwhite;
+}
+
+/* pour pointer les li qui sont dans la balise nav */ /* nav, liv {} = nav et li // nav li {} = les li dans la nav */
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: #8b35c5;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* le lien pas encore visité */
+/* nav li a:link {
+    color: darkblue;
+} */
+
+/* le lien au survol de la souris */
+nav li a:hover {
+    color: black;
+    background-color: #c9c1cc;
+}
+
+/* le lien au clic de la souris, sélectionné */
+nav li a:active {
+    color: brown;
+}
+
+/* le lien visité */
+/* nav li a:visited {
+    color: black;
+} */
+
+/* les styles pour la section */
 section {
     border: 20px solid lightgrey;
     height: 400px;

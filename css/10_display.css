@@ -4,6 +4,15 @@ body {
     background-color: #f2eee5;
 }
 
+h1, h3, div, p {
+    text-align: center;
+    background-color: #c9c1cc;
+}
+
+h1:hover {
+    background-color: snow;
+}
+
 .encadre {
     border: 1px solid brown;
     padding: 2px;
