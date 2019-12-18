@@ -11,7 +11,37 @@
         
         body {
             font-size: 120%;
+            background-color: #bebcc2;
         }
+
+        h1 {
+            text-transform: uppercase;
+            background-image: url(img/index.jpg);
+            background-repeat: no-repeat;
+            background-size: 1130px 60px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: bolder;
+            letter-spacing: 5px;
+            word-spacing: 8px;
+            text-shadow: 15px -5px 4px black;
+            opacity: 0.80;
+            border-style: double;
+        }
+
+        h4 {
+            box-shadow: -1px 3px black;
+            border-radius: 10px;
+            border-width: medium;
+            font-variant: small-caps;
+        }
+
+        /* #etoile {
+            list-style-image: url(img/star.png);
+        } */
+
 
     </style>
 
@@ -37,9 +67,66 @@
         <li><mark>.ma-jolie-class</mark> : sélectionne tous les éléments ayant le nom de class "ma-jolie-class"</li>
         <li><mark>#mon-unique-id</mark> : sélectionne tous les éléments ayant le nom d'ID "mon-unique-id"</li>
         <li><mark>div, aside, article</mark> : sélectionne toutes les balises <code>&lt;div></code>, <code>&lt;aside></code> et <code>&lt;article></code></li>
-        <li><mark>nav a</mark> : </li>
-        <li><mark>nav a:hover</mark> : </li>
+        <li><mark>nav a</mark> : sélectionne les liens <code>&lt;a></code> imbriqués dans la balise <code>&lt;nav></code></li>
+        <li><mark>nav a:hover</mark> : sélectionne tous les liens de la nav et active une animation au survol de la souris</li>
     </ul>
+
+    <h2>Propriétés CSS utilisées dans cette page</h2>
+        <h4>Décrivez leur usage et leurs valeurs possibles</h4>
+
+        <ol>
+
+            <li>
+                Propriétés pour le texte
+                <ul>
+                    <li>font-family : famille de typo dans un ordre de priorité</li>
+                    <li>font-size : taille des caractères, de la typo</li>
+                    <li>text-align : alignement du texte, à gauche, à droite, au centre</li>
+                    <li>line-height : interlignage, espace entre les lignes</li>
+                    <li>text-decoration : pour "décorer" le texte en ajoutant une ligne en-dessous</li>
+                    <li>color : la couleur de la typo, de la font ou du texte</li>
+                </ul>
+            </li>
+
+            <li>
+                Propriétés pour les éléments
+                <ul>
+                    <li>background : arrière-plan d'un élément HTML</li>
+                    <li>height : hauteur de l'élément</li>
+                    <li>width : largeur de l'élément :  tous les deux par rapport à la taille de la fenêtre si on indique une valeur proportionnelle en % ou en em</li>
+                    <li>left : position à partir de la gauche de la fenêtre du navigateur</li>
+                    <li>top : position par rapport au haut de la fenêtre</li>
+                    <li>margin : marge extérieure d'un élément</li>
+                    <li>padding : marge intérieure d'un élément</li>
+                    <li>float : permet de sortir un élément du flux / effet "flottant"</li>
+                    <li>position : position de l'élement dans la page</li>
+                    <li>transition : temps de transition lors d'une animation</li>
+                </ul>
+            </li>
+
+        </ol>
+
+        <h2>Propriétés CSS à rechercher</h2>
+        <h4>Recherchez les propriétés ci-dessous, faites des test avec ces propriétés sur cette page depuis la console de débuggage pour testez les valeurs qu'elles peuvent prendre</h4>
+
+        <ul id="etoile">
+                <li>font-weight : la graisse du texte</li>
+                <li>letter-spacing : l'espace entre les lettres</li>
+                <li>word-spacing : espace entre les mots</li>
+                <li>text-shadow :ajouter une ombre sur le texte</li>
+                <li>background-image : ajouter une image en arrière plan</li>
+                <li>background-size : taille de l'arrière-plan</li>
+                <li>opacity : transparence d'un élément</li>
+                <li>border-style :style des lignes pour les bordures</li>
+                <li>box-shadow : ajoute des ombres à la boîte d'un élément</li>
+                <li>list-style-image : ajoute des images aux list</li>
+                <li>border : la bordure d'un élément</li>
+                <li>border-radius : permet de définir la bordure de chaque coin</li>
+                <li>border-width : largeur de la bordure d'un élément</li>
+                <li>font-variant : définit une valeur de police</li>
+                <li>background-color : couleur d'arrière-plan</li>
+                <li>!important ;</li>
+        </ul>
     
 </body>
 
